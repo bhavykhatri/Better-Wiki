@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Better Wiki",
+    "version":"1.0",
+
+    "description": "Shows table of content at a fixed position for better navigation through wikipedia pages",
+
+    "content_scripts": [
+        {
+            "matches":["*://en.wikipedia.org/wiki/*"],
+            "js": ["content.js"]
+        }
+    ]
+}

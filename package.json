@@ -1,6 +1,40 @@
 {
+
+  "name": "better-wiki",
+
+  "version": "1.0.0",
+
+  "description": "Shows table of content at a fixed position for better navigation through wikipedia pages",
+
+  "author": "Bhavy Khatri <blurthebody@gmail.com>",
+
+  "engines": {
+
+    "node": ">=10"
+
+  },
+
+  "scripts": {
+    "build": "npx webpack --config webpack.config.js"
+  },
+
   "devDependencies": {
+
+    "copy-webpack-plugin": "^9.0.0",
+
+    "css-loader": "^5.2.6",
+
+    "sass": "^1.34.1",
+
+    "sass-loader": "^12.1.0",
+
+    "style-loader": "^2.0.0",
+
     "webpack": "^5.38.1",
+
     "webpack-cli": "^4.7.2"
+
   }
+
 }
+
