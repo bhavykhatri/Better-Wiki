@@ -14,7 +14,9 @@
 
   },
 
-  "script": {},
+  "scripts": {
+    "build": "npx webpack --config webpack.config.js"
+  },
 
   "devDependencies": {
 
