@@ -39,5 +39,14 @@ module.exports = {
           },
         ],
       }),
+      new CopyWebpackPlugin({
+        patterns: [
+          {
+            from: 'src/icons',
+            to: path.join(__dirname, 'dist', 'icons'),
+            force: true,
+          },
+        ],
+      }),
     ]
 };
