@@ -1,9 +1,9 @@
 # Better Wiki
 
-Shows table of content at a fixed position for better navigation through wikipedia pages. Try it out on any [wiki page](https://en.wikipedia.org/wiki/Cold_War).
+Shows table of content at a fixed position for better navigation through wikipedia pages. Try it out on any [wiki page](https://en.wikipedia.org/wiki/Cold_War) .
 
 ## With Extension
-![with-extension](./screenshots/with-extension.png)
+![with-extension](./screenshots/withExtension.png)
 
 ## Without Extension
-![without-extension](./screenshots/without-extension.png)
+![without-extension](./screenshots/withoutExtension.png)
