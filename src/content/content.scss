@@ -1,11 +1,22 @@
 .better-wiki{
+    &.rtl{
+        .toc{
+            left: 0px;
+        }
+    }
+
+    &.ltr{
+        .toc{
+            right: 0px;
+        }
+    }
+
     #bodyContent{
         width: 70%;
     }
     
     .toc{
         position: fixed;
-        right: 0px;
         height: 50%;
         bottom: 25%;
         width: 25%;
