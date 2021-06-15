@@ -2,7 +2,7 @@ const path = require('path');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
-  entry: './src/content/content.js',
+  entry: './src/content/content.ts',
   output: {
     filename: 'content.js',
     path: path.resolve(__dirname, 'dist'),
@@ -17,7 +17,14 @@ module.exports = {
         test: /\.scss$/,
         use: ['style-loader', 'css-loader', 'sass-loader'],
       },
+      {
+        test: /\.ts$/,
+        use: ['ts-loader'],
+      },
     ],
+  },
+  resolve: {
+    extensions: ['.tsx', '.ts', '.js'],
   },
   plugins: [
     new CopyWebpackPlugin({
