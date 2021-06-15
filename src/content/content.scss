@@ -1,13 +1,15 @@
-#bodyContent{
-    width: 70%;
-}
-
-.toc{
-    position: fixed;
-    right: 0px;
-    height: 50%;
-    bottom: 25%;
-    width: 25%;
-    display: block;
-    overflow: auto;
+.better-wiki{
+    #bodyContent{
+        width: 70%;
+    }
+    
+    .toc{
+        position: fixed;
+        right: 0px;
+        height: 50%;
+        bottom: 25%;
+        width: 25%;
+        display: block;
+        overflow: auto;
+    }
 }
