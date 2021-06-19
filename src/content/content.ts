@@ -30,10 +30,8 @@ module Loader{
     }
 
     function findAndHighlightCurrentSectionToc(event:Event, dict : IPosDictionary):void{
-        var scrollPos :number = window.scrollY;
-        // console.log(currEle);
-        console.log(scrollPos);
-        console.log(dict);
+        var scrollPos :number = window.scrollY + window.outerHeight/2;
+        
         for(var id in dict){
             var currTop:number = dict[id].top;
             var currBottom:number = dict[id].bottom;
