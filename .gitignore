@@ -3,3 +3,6 @@
 
 # distribution code
 /dist
+
+# distribution zip folder
+/dist-zip
