@@ -2,7 +2,7 @@
 
   "name": "better-wiki",
 
-  "version": "1.0.0",
+  "version": "1.1.0",
 
   "description": "Shows table of content at a fixed position for better navigation through wikipedia pages",
 
@@ -16,11 +16,13 @@
 
   "scripts": {
 
-    "build": "npx webpack --config webpack.config.js"
-
+    "build": "npx webpack --config webpack.config.js",
+    "build-zip": "node scripts/build-zip.js"
   },
 
   "devDependencies": {
+
+    "archiver": "^5.3.0",
 
     "copy-webpack-plugin": "^9.0.0",
 
