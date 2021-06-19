@@ -22,5 +22,14 @@
         width: 25%;
         display: block;
         overflow: auto;
+
+        .bw-active{
+            .toctext{
+                background: #c0d7fd;
+                font-weight: bold;
+                padding: 0px 4px;
+                border-radius: 4px;
+            }
+        }
     }
 }
